@@ -42,7 +42,7 @@ import scpschool from "./assets/education_logo/scpschool.png";
 import MovieAPP from "./assets/work_logo/MovieAPP1.png";
 import ReduxAPP from "./assets/work_logo/ReduxAPP.png";
 import MEARNAPP from "./assets/work_logo/MEARNAPP.png";
-
+import EDUAPP from "./assets/work_logo/EducationsApp.png";
 
 export const SkillsInfo = [
   {
@@ -240,8 +240,19 @@ export const projects = [
       "Chart.js",
       "Vite",
     ],
-    github: "https://github.com/PrasunPrabhat/Start-Journey-MERN-Expense-Tracker-Project",
+    github:
+      "https://github.com/PrasunPrabhat/Start-Journey-MERN-Expense-Tracker-Project",
     webapp: "https://expense-tracker-cbnz.onrender.com/",
   },
-  
+  {
+    id: 3,
+    title: "EduVision – Multipage Education Website",
+    description:
+      "A responsive multi-page education website built using PHP and modern HTML/CSS. Includes pages like Home, About, Courses, Blog, and Contact. The contact page is connected to backend email functionality using PHP mail.",
+    image: EDUAPP,
+    tags: ["HTML5", "CSS3", "PHP", "JavaScript", "Responsive Design"],
+    github:
+      "https://github.com/PrasunPrabhat/EDUCATIONS-WEBSITE",
+    webapp: "https://educations-website.vercel.app/",
+  },
 ];
