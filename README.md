@@ -1,8 +1,3 @@
-Sure, here’s your **README.md** in the **NetflixGPT-style format** for your **Portfolio Website** built using **ReactJS, TailwindCSS, and Node.js**:
-
----
-
-````md
 # 🌐 Prasun Prabhat – Personal Developer Portfolio
 
 This is my official **portfolio website** built using **React.js**, **Tailwind CSS**, and **Node.js** for backend mail integration. It showcases my development skills, projects, and professional journey, with an elegant UI, seamless responsiveness, and real-time email functionality for recruiters and collaborators to reach me easily.
