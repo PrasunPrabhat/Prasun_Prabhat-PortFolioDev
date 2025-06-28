@@ -5,6 +5,7 @@ const BlurBlob = ({ position, size }) => {
   // Destruction Position and Size
 
   const { top, left } = position;
+
   const { width, height } = size;
   return (
     <div
@@ -15,6 +16,7 @@ const BlurBlob = ({ position, size }) => {
         width: width,
         height: height,
         transform: "translate(-50% , -50%)",
+        
       }}
     >
       <div

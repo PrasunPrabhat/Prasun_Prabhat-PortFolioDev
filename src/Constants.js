@@ -43,6 +43,7 @@ import MovieAPP from "./assets/work_logo/MovieAPP1.png";
 import ReduxAPP from "./assets/work_logo/ReduxAPP.png";
 import MEARNAPP from "./assets/work_logo/MEARNAPP.png";
 import EDUAPP from "./assets/work_logo/EducationsApp.png";
+import LANDAPP from "./assets/work_logo/Landing-Page.png";
 
 export const SkillsInfo = [
   {
@@ -251,8 +252,17 @@ export const projects = [
       "A responsive multi-page education website built using PHP and modern HTML/CSS. Includes pages like Home, About, Courses, Blog, and Contact. The contact page is connected to backend email functionality using PHP mail.",
     image: EDUAPP,
     tags: ["HTML5", "CSS3", "PHP", "JavaScript", "Responsive Design"],
-    github:
-      "https://github.com/PrasunPrabhat/EDUCATIONS-WEBSITE",
+    github: "https://github.com/PrasunPrabhat/EDUCATIONS-WEBSITE",
     webapp: "https://educations-website.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "WanderVista – Travel Landing Page",
+    description:
+      "A visually engaging travel-themed landing page built using React.js and Vanilla CSS. Features a dynamic full-screen background powered by Unsplash's random image API, responsive layout, and sleek UI sections for destinations, packages, testimonials, and contact.",
+    image: LANDAPP,
+    tags: ["React.js", "Vanilla CSS", "Unsplash API", "Responsive Design"],
+    github: "https://github.com/PrasunPrabhat/React-Landing-Page", 
+    webapp: "https://react-landing-page-flax.vercel.app/", 
   },
 ];

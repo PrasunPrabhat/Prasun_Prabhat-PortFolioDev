@@ -10,6 +10,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import BlurBlob from "./Components/About/BlurBlob";
+// import Leetcode from "./Components/Leetcode/Leetcode";
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -33,6 +34,7 @@ const App = () => {
           <Experience />
           <Work />
           <Education />
+          {/* <Leetcode/> */}
           <Contact />
           <Footer />
         </div>
