@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
@@ -81,23 +80,24 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6 lg:space-x-8 font-bold font-mono text-aqua-500">
           {menuitems.map((item) => (
             <li key={item.id} className="relative cursor-pointer group">
-              {/* Glowing Dot */}
-
               <button
                 onClick={() => handleMenuItemClick(item.id)}
-                className={`hover:text-[#6FFFE9] relative transition duration-200 ${
-                  activeSection === item.id ? "text-[#6FFFE9]" : "text-aqua-500"
+                className={`relative transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[2px] after:scale-x-0 after:bg-[#6FFFE9] after:origin-left after:transition-transform after:duration-300 group-hover:after:scale-x-100 ${
+                  activeSection === item.id
+                    ? "text-[#6FFFE9] after:scale-x-100"
+                    : "text-aqua-500"
                 }`}
               >
                 {item.label}
-                {/* Glowing Dot */}
+
+                {/* Optional Glowing Dot */}
                 <span
-                  className={`absolute -bottom-[0.1rem] -right-[0.5rem] w-2 h-2 rounded-full transition-all duration-300
-          ${
-            activeSection === item.id
-              ? "bg-[#13d6f0] shadow-[0_0_10px_3px_#6FFFE9]"
-              : "bg-gray-500 opacity-0 group-hover:opacity-50"
-          }`}
+                  className={`absolute bottom-[0.9rem] -right-[0.5rem] w-2 h-2 rounded-full transition-all duration-300
+            ${
+              activeSection === item.id
+                ? "bg-[#13d6f0] shadow-[0_0_10px_3px_#6FFFE9]"
+                : "bg-gray-500 opacity-0 group-hover:opacity-0"
+            }`}
                 ></span>
               </button>
             </li>
