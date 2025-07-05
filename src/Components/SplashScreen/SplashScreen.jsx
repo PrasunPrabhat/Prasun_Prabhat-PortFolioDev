@@ -54,7 +54,7 @@ const SplashScreen = ({ onFinish }) => {
 
       {/* Neon Glow Flash */}
       {neonVisible && (
-        <div className="absolute w-full h-full rounded-full neon-flash"></div>
+        <div className="absolute w-0 h-0 rounded-full neon-flash"></div>
       )}
 
       {/* Logo */}
