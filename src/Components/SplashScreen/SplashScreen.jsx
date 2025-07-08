@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Dev from "../../assets/Dev4.png";
+import Dev from "../../assets/Dev4_.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SplashScreen = ({ onFinish }) => {
