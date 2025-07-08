@@ -63,9 +63,10 @@ const About = () => {
           <p className="text-sm sm:text-base md:text-lg text-[#a9caf2] mb-10 mt-8 leading-relaxed text-justify">
             I'm a{" "}
             <span className="text-[#6FFFE9] font-medium">
-              Frontend Developer
+              Software Developer
             </span>{" "}
             skilled in{" "}
+            <span className="text-[#6FFFE9] font-medium">DSA`(Data Structure and Algorithm)`</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">React.js</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">JavaScript</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">HTML5</span>,{" "}
