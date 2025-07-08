@@ -31,13 +31,13 @@ const About = () => {
             <span className="text-white">I am a </span>
             <TypeAnimation
               sequence={[
-                "Front-End Developer",
+                "Software Developer",
                 2000,
                 "ReactJS Developer",
                 2000,
                 "API Integrator",
                 2000,
-                "Mobile-Responsive Designer",
+                "Frontend Developer",
                 2000,
                 "Web Developer in Progress",
                 2000,
@@ -54,7 +54,6 @@ const About = () => {
                 display: "inline-block",
                 color: "#5BC0BE",
                 fontWeight: "bold",
-                textDecoration: "underline",
                 textDecorationColor: "#5BC0BE",
               }}
             />
@@ -66,8 +65,10 @@ const About = () => {
               Software Developer
             </span>{" "}
             skilled in{" "}
-            <span className="text-[#6FFFE9] font-medium">DSA(Data Structure and Algorithm)</span>,{" "}
-            <span className="text-[#6FFFE9] font-medium">React.js</span>,{" "}
+            <span className="text-[#6FFFE9] font-medium">
+              DSA(Data Structure and Algorithm)
+            </span>
+            , <span className="text-[#6FFFE9] font-medium">React.js</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">JavaScript</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">HTML5</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">CSS3</span>,{" "}
