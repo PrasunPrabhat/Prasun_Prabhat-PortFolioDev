@@ -66,7 +66,7 @@ const About = () => {
               Software Developer
             </span>{" "}
             skilled in{" "}
-            <span className="text-[#6FFFE9] font-medium">DSA`(Data Structure and Algorithm)`</span>,{" "}
+            <span className="text-[#6FFFE9] font-medium">DSA(Data Structure and Algorithm)</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">React.js</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">JavaScript</span>,{" "}
             <span className="text-[#6FFFE9] font-medium">HTML5</span>,{" "}
