@@ -101,7 +101,7 @@ const About = () => {
 
           <div className="flex justify-center md:justify-start">
             <a
-              href="https://drive.google.com/file/d/1MDGqPItSas6zrptd0TAh7uwS5-U3_rTs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1p-32e3lhQmdBIWiMvLLfPa-PZ3bPYOkE/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-gray-600 py-3 px-8 rounded-full text-base sm:text-lg font-bold transition duration-300 transform hover:scale-105"
