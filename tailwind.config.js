@@ -48,6 +48,8 @@ export default {
       backgroundImage: {
         "skills-gradient":
           "linear-gradient(38.73deg, rgba(91, 192, 190, 0.15) 60%, rgba(58, 80, 107, 0) 50%), linear-gradient(141.27deg, rgba(28, 37, 65, 0) 50%, rgba(111, 255, 233, 0.15) 100%)",
+        "gradient-aqua":
+          "linear-gradient(98deg, #6FFFE9 0%, #3ACFD5 50%, #1D8FCE 100%)",
       },
     },
   },

@@ -106,7 +106,7 @@ const About = () => {
               rel="noopener noreferrer"
               className="inline-block text-gray-600 py-3 px-8 rounded-full text-base sm:text-lg font-bold transition duration-300 transform hover:scale-105"
               style={{
-                background: "linear-gradient(90deg, #6FFFE9, #6FFFE9)",
+                background: "linear-gradient(98deg, #6FFFE9 0%, #3ACFD5 50%, #1D8FCE 100%)",
               }}
             >
               DOWNLOAD CV
